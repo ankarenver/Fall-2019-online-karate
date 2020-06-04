@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fc50ad-3014-46fa-b912-d5d51edea9bd" name="Default Changelist" comment="" />
+    <list default="true" id="e9fc50ad-3014-46fa-b912-d5d51edea9bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/main.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.BookIt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.BookIt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.MetaWeather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.MetaWeather.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.MetaWeather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.OMDB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.OMDB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.Spartan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.Spartan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.Zippopotam.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.Zippopotam.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/results-json.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.BookIt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.BookIt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.BookIt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.OMDB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.OMDB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.OMDB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.Spartan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.Spartan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.Spartan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.Zippopotam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.Zippopotam.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.java.features.Zippopotam.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FeatureRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/basic-auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BookIt.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/MetaWeather.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/OMDB.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Spartan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Zippopotam.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/karate-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spartan.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +75,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1coLri5i0DBYVLWbGWCXLKtw6vf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -156,22 +209,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591218054258" />
-    <state width="1877" height="398" key="GridCell.Tab.0.bottom" timestamp="1591277362586">
+    <state width="1877" height="398" key="GridCell.Tab.0.bottom" timestamp="1591278039559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591277362586" />
-    <state width="1877" height="398" key="GridCell.Tab.0.center" timestamp="1591277362586">
+    <state width="1877" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278039559" />
+    <state width="1877" height="398" key="GridCell.Tab.0.center" timestamp="1591278039559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591277362586" />
-    <state width="1877" height="398" key="GridCell.Tab.0.left" timestamp="1591277362586">
+    <state width="1877" height="398" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278039559" />
+    <state width="1877" height="398" key="GridCell.Tab.0.left" timestamp="1591278039558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591277362586" />
-    <state width="1877" height="398" key="GridCell.Tab.0.right" timestamp="1591277362586">
+    <state width="1877" height="398" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278039558" />
+    <state width="1877" height="398" key="GridCell.Tab.0.right" timestamp="1591278039559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591277362586" />
+    <state width="1877" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278039559" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591203548246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
