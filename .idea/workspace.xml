@@ -205,6 +205,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="568" y="114" key="CommitChangelistDialog2" timestamp="1591278063850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278063850" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591218054258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,6 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278039559" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591278066328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591278066328" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591203548246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
