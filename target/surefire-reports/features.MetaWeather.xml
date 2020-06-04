@@ -1,0 +1,80 @@
+<testsuite failures="0" name="features/MetaWeather.feature" skipped="0" tests="4" time="7.86739">
+  <testcase classname="features.MetaWeather" name="Search for London" time="1.901363">
+    <system-out>* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'London' ................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match response[0] contains {title: 'London'} ......................... passed
+And match each response contains {title: 'London'} ........................ passed</system-out>
+  </testcase>
+  <testcase classname="features.MetaWeather" name="verify that city 'New York' exist" time="1.916745">
+    <system-out>* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'London' ................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match response[0] contains {title: 'London'} ......................... passed
+And match each response contains {title: 'London'} ........................ passed
+* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'New York' .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match each response contains {title: 'New York'} ...................... passed
+* print karate.pretty(response) ........................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.MetaWeather" name="verify that city 'London' exist" time="2.039195">
+    <system-out>* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'London' ................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match response[0] contains {title: 'London'} ......................... passed
+And match each response contains {title: 'London'} ........................ passed
+* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'New York' .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match each response contains {title: 'New York'} ...................... passed
+* print karate.pretty(response) ........................................... passed
+* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'London' ................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match each response contains {title: 'London'} ........................ passed
+* print karate.pretty(response) ........................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.MetaWeather" name="verify that city 'Los Angeles' exist" time="2.010086">
+    <system-out>* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'London' ................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then match response[0] contains {title: 'London'} ......................... passed
+And match each response contains {title: 'London'} ........................ passed
+* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'New York' .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match each response contains {title: 'New York'} ...................... passed
+* print karate.pretty(response) ........................................... passed
+* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'London' ................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match each response contains {title: 'London'} ........................ passed
+* print karate.pretty(response) ........................................... passed
+* url 'https://www.metaweather.com/api' ................................... passed
+Given path '/location/search' ............................................. passed
+And param query = 'Los Angeles' ........................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match each response contains {title: 'Los Angeles'} ................... passed
+* print karate.pretty(response) ........................................... passed</system-out>
+  </testcase>
+</testsuite>

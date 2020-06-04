@@ -1,0 +1,16 @@
+<testsuite failures="0" name="src/test/java/features/BookIt.feature" skipped="0" tests="1" time="3.135945">
+  <testcase classname="src.test.java.features.BookIt" name="Get all rooms" time="3.135945">
+    <system-out>* url 'https://cybertek-reservation-api-qa.herokuapp.com' ................. passed
+* path 'sign' ............................................................. passed
+* param email = 'teacherva5@gmail.com' .................................... passed
+* param password = 'maxpayne' ............................................. passed
+* method get .............................................................. passed
+* def token = response.accessToken ........................................ passed
+* print "Token: ", token .................................................. passed
+Given path '/api/rooms' ................................................... passed
+When header Authorization = token ......................................... passed
+* method get .............................................................. passed
+Then status 200 ........................................................... passed
+* print karate.pretty(response) ........................................... passed</system-out>
+  </testcase>
+</testsuite>

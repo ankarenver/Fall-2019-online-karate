@@ -1,0 +1,215 @@
+10:13:01.455 karate.env system property was:  
+10:13:02.034 request:
+1 > GET https://www.metaweather.com/api/location/search?query=London
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.metaweather.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:02.527 response time in milliseconds: 489.85
+1 < 301
+1 < Content-Language: en
+1 < Content-Length: 0
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 14:13:03 GMT
+1 < Location: https://www.metaweather.com/api/location/search/?query=London
+1 < Server: Google Frontend
+1 < Vary: Accept-Language
+1 < X-Cloud-Trace-Context: 15a3d0dc60911f83bdd48c19fa879315
+1 < strict-transport-security: max-age=2592000; includeSubDomains
+1 < x-content-type-options: nosniff
+1 < x-frame-options: DENY
+1 < x-xss-protection: 1; mode=block
+
+
+10:13:02.530 request:
+2 > GET https://www.metaweather.com/api/location/search?query=London
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: www.metaweather.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:02.702 response time in milliseconds: 171.85
+2 < 200
+2 < Allow: GET, HEAD, OPTIONS
+2 < Content-Language: en
+2 < Content-Length: 90
+2 < Content-Type: application/json
+2 < Date: Wed, 03 Jun 2020 14:13:03 GMT
+2 < Server: Google Frontend
+2 < Vary: Accept-Language, Cookie
+2 < X-Cloud-Trace-Context: bd18e068980355dd5c6577efeaf1e9ae
+2 < strict-transport-security: max-age=2592000; includeSubDomains
+2 < x-content-type-options: nosniff
+2 < x-frame-options: DENY
+2 < x-xss-protection: 1; mode=block
+[{"title":"London","location_type":"City","woeid":44418,"latt_long":"51.506321,-0.12714"}]
+
+10:13:02.722 karate.env system property was:  
+10:13:02.731 request:
+1 > GET https://www.metaweather.com/api/location/search?query=New+York
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.metaweather.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:03.079 response time in milliseconds: 347.68
+1 < 301
+1 < Content-Language: en
+1 < Content-Length: 0
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 14:13:03 GMT
+1 < Location: https://www.metaweather.com/api/location/search/?query=New+York
+1 < Server: Google Frontend
+1 < Vary: Accept-Language
+1 < X-Cloud-Trace-Context: 916b1be2c8bbcac5b7f7b0b8728feacc;o=1
+1 < strict-transport-security: max-age=2592000; includeSubDomains
+1 < x-content-type-options: nosniff
+1 < x-frame-options: DENY
+1 < x-xss-protection: 1; mode=block
+
+
+10:13:03.080 request:
+2 > GET https://www.metaweather.com/api/location/search?query=New+York
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: www.metaweather.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:03.268 response time in milliseconds: 187.37
+2 < 200
+2 < Allow: GET, HEAD, OPTIONS
+2 < Content-Language: en
+2 < Content-Length: 95
+2 < Content-Type: application/json
+2 < Date: Wed, 03 Jun 2020 14:13:04 GMT
+2 < Server: Google Frontend
+2 < Vary: Accept-Language, Cookie
+2 < X-Cloud-Trace-Context: b2d088f503253dfb9eda5b4516c2acb2
+2 < strict-transport-security: max-age=2592000; includeSubDomains
+2 < x-content-type-options: nosniff
+2 < x-frame-options: DENY
+2 < x-xss-protection: 1; mode=block
+[{"title":"New York","location_type":"City","woeid":2459115,"latt_long":"40.71455,-74.007118"}]
+
+10:13:03.280 [print] [
+  {
+    "latt_long": "40.71455,-74.007118",
+    "woeid": 2459115,
+    "title": "New York",
+    "location_type": "City"
+  }
+]
+
+10:13:03.290 karate.env system property was:  
+10:13:03.293 request:
+1 > GET https://www.metaweather.com/api/location/search?query=London
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.metaweather.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:03.607 response time in milliseconds: 313.02
+1 < 301
+1 < Content-Language: en
+1 < Content-Length: 0
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 14:13:04 GMT
+1 < Location: https://www.metaweather.com/api/location/search/?query=London
+1 < Server: Google Frontend
+1 < Vary: Accept-Language
+1 < X-Cloud-Trace-Context: a374340611d3b5e0c6963b1dec2efbfb
+1 < strict-transport-security: max-age=2592000; includeSubDomains
+1 < x-content-type-options: nosniff
+1 < x-frame-options: DENY
+1 < x-xss-protection: 1; mode=block
+
+
+10:13:03.608 request:
+2 > GET https://www.metaweather.com/api/location/search?query=London
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: www.metaweather.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:03.918 response time in milliseconds: 310.68
+2 < 200
+2 < Allow: GET, HEAD, OPTIONS
+2 < Content-Language: en
+2 < Content-Length: 90
+2 < Content-Type: application/json
+2 < Date: Wed, 03 Jun 2020 14:13:04 GMT
+2 < Server: Google Frontend
+2 < Vary: Accept-Language, Cookie
+2 < X-Cloud-Trace-Context: bbd4d5367fd916cd875862616a4b155f
+2 < strict-transport-security: max-age=2592000; includeSubDomains
+2 < x-content-type-options: nosniff
+2 < x-frame-options: DENY
+2 < x-xss-protection: 1; mode=block
+[{"title":"London","location_type":"City","woeid":44418,"latt_long":"51.506321,-0.12714"}]
+
+10:13:03.921 [print] [
+  {
+    "latt_long": "51.506321,-0.12714",
+    "woeid": 44418,
+    "title": "London",
+    "location_type": "City"
+  }
+]
+
+10:13:03.931 karate.env system property was:  
+10:13:03.937 request:
+1 > GET https://www.metaweather.com/api/location/search?query=Los+Angeles
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.metaweather.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:04.744 response time in milliseconds: 806.00
+1 < 301
+1 < Content-Language: en
+1 < Content-Length: 0
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: Wed, 03 Jun 2020 14:13:05 GMT
+1 < Location: https://www.metaweather.com/api/location/search/?query=Los+Angeles
+1 < Server: Google Frontend
+1 < Vary: Accept-Language
+1 < X-Cloud-Trace-Context: 05918d86a4cb7f9aa425e0ed4908cca2
+1 < strict-transport-security: max-age=2592000; includeSubDomains
+1 < x-content-type-options: nosniff
+1 < x-frame-options: DENY
+1 < x-xss-protection: 1; mode=block
+
+
+10:13:04.744 request:
+2 > GET https://www.metaweather.com/api/location/search?query=Los+Angeles
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: www.metaweather.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.1)
+
+10:13:05.053 response time in milliseconds: 307.53
+2 < 200
+2 < Allow: GET, HEAD, OPTIONS
+2 < Content-Language: en
+2 < Content-Length: 100
+2 < Content-Type: application/json
+2 < Date: Wed, 03 Jun 2020 14:13:05 GMT
+2 < Server: Google Frontend
+2 < Vary: Accept-Language, Cookie
+2 < X-Cloud-Trace-Context: ce152cffcfc4f0624d4de430b8b7faf4
+2 < strict-transport-security: max-age=2592000; includeSubDomains
+2 < x-content-type-options: nosniff
+2 < x-frame-options: DENY
+2 < x-xss-protection: 1; mode=block
+[{"title":"Los Angeles","location_type":"City","woeid":2442047,"latt_long":"34.053490,-118.245323"}]
+
+10:13:05.054 [print] [
+  {
+    "latt_long": "34.053490,-118.245323",
+    "woeid": 2442047,
+    "title": "Los Angeles",
+    "location_type": "City"
+  }
+]
+

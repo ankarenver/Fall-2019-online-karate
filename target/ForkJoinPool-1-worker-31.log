@@ -1,0 +1,26 @@
+09:26:47.166 karate.env system property was:  
+09:26:48.058 [print] {
+  "path": "/api/spartans",
+  "error": "Internal Server Error",
+  "message": "could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement",
+  "timestamp": "2020-06-04T13:26:41.119+0000",
+  "status": 500
+}
+
+09:26:48.062 status code was: 500, expected: 201, response time: 167, url: http://54.196.47.224:8000/api/spartans, response: {"path":"/api/spartans","error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","timestamp":"2020-06-04T13:26:41.119+0000","status":500}
+09:26:48.119 karate.env system property was:  
+09:26:48.309 [print] {
+  "country": "United States",
+  "places": [
+    {
+      "latitude": "42.0702",
+      "state": "Massachusetts",
+      "state abbreviation": "MA",
+      "place name": "Agawam",
+      "longitude": "-72.6227"
+    }
+  ],
+  "country abbreviation": "US",
+  "post code": "01001"
+}
+

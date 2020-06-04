@@ -1,0 +1,10 @@
+09:26:47.106 karate.env system property was:  
+09:26:49.133 [print] [
+  {
+    "latt_long": "40.71455,-74.007118",
+    "woeid": 2459115,
+    "title": "New York",
+    "location_type": "City"
+  }
+]
+
